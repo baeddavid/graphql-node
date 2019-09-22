@@ -1,0 +1,9 @@
+#endpoint: ''
+endpoint: https://eu1.prisma.sh/david-bae-52a5dd/hackernews-node/dev
+
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
+    
